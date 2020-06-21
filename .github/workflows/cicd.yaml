@@ -1,8 +1,8 @@
-name: "Publish Resume"
+name: "Build and Publish Resume"
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   publish_resume:
