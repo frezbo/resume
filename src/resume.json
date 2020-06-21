@@ -36,7 +36,7 @@
     {
       "company": "Hitachi Vantara/REAN Cloud",
       "position": "Senior Cloud Engineer",
-      "website": "http://hitachivantara.com",
+      "website": "https://hitachivantara.com",
       "startDate": "2019-10-01",
       "summary": "A DevOps team building and automating an internal, cloud accelerator platform",
       "highlights": [
@@ -57,7 +57,7 @@
       "issueDate": "2019-12-16",
       "expirationDate": "2022-12-16",
       "credentialID": "SJHD1VV1PFQ4Q25D",
-      "credentialURL": "http://aws.amazon.com/verification"
+      "credentialURL": "https://aws.amazon.com/verification"
     },
     {
       "name": "Amazon Web Services SysOps Administrator - Associate",
@@ -66,7 +66,7 @@
       "issueDate": "2019-10-21",
       "expirationDate": "2022-10-21",
       "credentialID": "XRD067G2EJ4110S2",
-      "credentialURL": "http://aws.amazon.com/verification"
+      "credentialURL": "https://aws.amazon.com/verification"
     },
     {
       "name": "Red Hat Certified Specialist in OpenShift Administration",
@@ -84,7 +84,7 @@
       "issueDate": "2018-02-24",
       "expirationDate": "2021-05-29",
       "credentialID": "S4M1KXSKLB4EQ69Y",
-      "credentialURL": "http://aws.amazon.com/verification"
+      "credentialURL": "https://aws.amazon.com/verification"
     },
     {
       "name": "CKAD",
