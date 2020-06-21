@@ -9,7 +9,7 @@ tasks:
   clean:
     desc: 'Removes the temporary directory'
     cmds:
-      - rm -rf target
+      - rm -rf target node_modules
   setup:
     desc: 'Creates the target directory for artifacts and temporary files'
     cmds:
