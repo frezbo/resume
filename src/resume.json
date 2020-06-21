@@ -1,0 +1,246 @@
+{
+  "basics": {
+    "name": "Noel Georgi",
+    "label": "DevOps hacks",
+    "picture": "https://avatars1.githubusercontent.com/u/18496730?s=460&u=fc9e69315752525d5504a94e468085e10b8c17c5&v=4",
+    "email": "***********@frezbo.com",
+    "phone": "+91-***** *****",
+    "website": "https://resume.frezbo.com",
+    "summary": "An engineer with a love for cloud native technology and a little debugging skills",
+    "location": {
+      "address": "Pune",
+      "postalCode": "500081",
+      "city": "Pune",
+      "countryCode": "IN",
+      "region": "Maharashtra"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "noelgeorgi",
+        "url": "https://twitter.com/noelgeorgi"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "noelgeorgi",
+        "url": "https://www.linkedin.com/in/noel-georgi-43442555"
+      },
+      {
+        "network": "GitHub",
+        "username": "frezbo",
+        "url": "https://github.com/frezbo"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Hitachi Vantara/REAN Cloud",
+      "position": "Senior Cloud Engineer",
+      "website": "http://hitachivantara.com",
+      "startDate": "2019-10-01",
+      "summary": "A DevOps team building and automating an internal, cloud accelerator platform",
+      "highlights": [
+        "Maintains and develop an internal framework for CI/CD",
+        "Open source contributions to Inspec and Terraform",
+        "Worked on developing and validating DISA STIG's for OS and Linux containers using Chef and Inspec",
+        "Containerized whole internal accelerator application",
+        "Chef, Terraform and Jenkins automation for standing up internal applications"
+      ]
+    }
+  ],
+  "volunteer": [],
+  "certifications": [
+    {
+      "name": "AWS Certified Solutions Architect - Associate",
+      "issuingOrganization": "Amazon Web Services",
+      "website": "https://aws.amazon.com/certification",
+      "issueDate": "2019-12-16",
+      "expirationDate": "2022-12-16",
+      "credentialID": "SJHD1VV1PFQ4Q25D",
+      "credentialURL": "http://aws.amazon.com/verification"
+    },
+    {
+      "name": "Amazon Web Services SysOps Administrator - Associate",
+      "issuingOrganization": "Amazon Web Services",
+      "website": "https://aws.amazon.com/certification",
+      "issueDate": "2019-10-21",
+      "expirationDate": "2022-10-21",
+      "credentialID": "XRD067G2EJ4110S2",
+      "credentialURL": "http://aws.amazon.com/verification"
+    },
+    {
+      "name": "Red Hat Certified Specialist in OpenShift Administration",
+      "issuingOrganization": "Red Hat",
+      "website": "https://www.redhat.com/en/services/all-certifications-exams",
+      "issueDate": "2019-10-10",
+      "expirationDate": "2022-10-10",
+      "credentialID": "160-207-999",
+      "credentialURL": "https://rhtapps.redhat.com/verify/?certId=160-207-999"
+    },
+    {
+      "name": "AWS Certified Developer - Associate",
+      "issuingOrganization": "Amazon Web Services",
+      "website": "https://aws.amazon.com/certification",
+      "issueDate": "2018-02-24",
+      "expirationDate": "2021-05-29",
+      "credentialID": "S4M1KXSKLB4EQ69Y",
+      "credentialURL": "http://aws.amazon.com/verification"
+    },
+    {
+      "name": "CKAD",
+      "issuingOrganization": "CNCF [Cloud Native Computing Foundation]",
+      "website": "https://www.cncf.io/certification/ckad",
+      "issueDate": "2018-06-09",
+      "expirationDate": "2020-06-09",
+      "credentialID": "CKAD-1800-0115-0100",
+      "credentialURL": "https://training.linuxfoundation.org/certification/verify-certifications"
+    },
+    {
+      "name": "CKA",
+      "issuingOrganization": "CNCF [Cloud Native Computing Foundation]",
+      "website": "https://www.cncf.io/certification/cka",
+      "issueDate": "2018-03-06",
+      "expirationDate": "2020-03-06",
+      "credentialID": "CKA-1800-0327-0100",
+      "credentialURL": "https://training.linuxfoundation.org/certification/verify-certifications"
+    },
+    {
+      "name": "Red Hat Certified Engineer",
+      "issuingOrganization": "Red Hat",
+      "website": "https://www.redhat.com/en/services/all-certifications-exams",
+      "issueDate": "2016-10-05",
+      "expirationDate": "2019-10-05",
+      "credentialID": "160-207-999",
+      "credentialURL": "https://rhtapps.redhat.com/verify/?certId=160-207-999"
+    }
+  ],
+  "education": [
+    {
+      "institution": "College of Engineering, Kidangoor",
+      "area": "Electronics and Communication Engineering (incomplete)",
+      "studyType": "Bachelors",
+      "startDate": "2012-06-01",
+      "endDate": "2016-01-01",
+      "courses": []
+    }
+  ],
+  "awards": [
+    {
+      "title": "Employee of the Year",
+      "date": "2018-11-01",
+      "awarder": "REAN Cloud",
+      "summary": "Recognized for containerizing the internal accelerator platform"
+    },
+    {
+      "title": "Chef Community Contributor",
+      "url": "https://blog.chef.io/giving-thanks-to-chef-community",
+      "date": "2018-11-22",
+      "awarder": "Chef",
+      "summary": "https://blog.chef.io/giving-thanks-to-chef-community"
+    }
+  ],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Automation and scripts",
+      "keywords": [
+        "Chef",
+        "Bash",
+        "Helm",
+        "Ansible - medium exposure"
+      ]
+    },
+    {
+      "name": "Testing and validation",
+      "keywords": [
+        "Inspec",
+        "Awspec",
+        "Rspec",
+        "ChefSpec - medium exposure"
+      ]
+    },
+    {
+      "name": "Continuous Integration",
+      "keywords": [
+        "Jenkins"
+      ]
+    },
+    {
+      "name": "System Administration",
+      "keywords": [
+        "Linux"
+      ]
+    },
+    {
+      "name": "Containers and Schedulers",
+      "keywords": [
+        "Kubernetes",
+        "OpenShift",
+        "Docker Swarm"
+      ]
+    },
+    {
+      "name": "Public Clouds",
+      "keywords": [
+        "AWS",
+        "Azure - medium exposure",
+        "GCP - medium exposure"
+      ]
+    },
+    {
+      "name": "Languages",
+      "keywords": [
+        "Ruby",
+        "Golang - medium exposure",
+        "Python - medium exposure"
+      ]
+    },
+    {
+      "name": "Infrastructure as Code",
+      "keywords": [
+        "Terraform",
+        "AWS CloudFormation - medium exposure"
+      ]
+    },
+    {
+      "name": "Serverless",
+      "keywords": [
+        "AWS Lambda",
+        "Serverless - medium exposure",
+        "Knative - medium exposure"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "name": "Malayalam",
+      "level": "Native"
+    },
+    {
+      "name": "English",
+      "level": "Professional"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Reading",
+      "keywords": []
+    },
+    {
+      "name": "Travelling",
+      "keywords": [
+        "Motor bikes"
+      ]
+    },
+    {
+      "name": "Hardware Tinkering",
+      "keywords": [
+        "Arduino",
+        "Single Board Computers",
+        "IoT",
+        "Routers"
+      ]
+    }
+  ],
+  "references": []
+}

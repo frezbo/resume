@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "jsonresume-theme-rocketspacer": "^1.2.2",
+    "resume-cli": "^1.2.8"
+  }
+}

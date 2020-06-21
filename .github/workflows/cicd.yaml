@@ -1,0 +1,23 @@
+name: "Publish Resume"
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  publish_resume:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: actions/setup-node@v1
+      - uses: arduino/actions/setup-taskfile@master
+
+      - name: Build
+        run: task build
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./target
+          cname: frezbo.com

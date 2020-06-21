@@ -1,0 +1,51 @@
+version: '2'
+
+vars:
+  TARGET: target
+  THEME: rocketspacer
+  RESUME_BIN_PATH: node_modules/.bin/resume
+
+tasks:
+  clean:
+    desc: 'Removes the temporary directory'
+    cmds:
+      - rm -rf target
+  setup:
+    desc: 'Creates the target directory for artifacts and temporary files'
+    cmds:
+      - mkdir -p {{.TARGET}}
+    status:
+      - test -d {{.TARGET}}
+  install:
+    desc: 'Installs the project dependencies'
+    deps:
+      - setup
+    cmds:
+      - yarn install --ignore-engines
+  validate:
+    desc: 'Runs schema validation'
+    # TODO: resume cli only supports --resume option for server
+    # remove dir:src once the CLI supports --resume option for all sub-commands
+    dir: src
+    cmds:
+      - ../{{.RESUME_BIN_PATH}} test
+    # TODO: Remove once jsonresume schema supports certifications
+    ignore_error: true
+    deps:
+      - install
+  build:
+    desc: 'Creates resume index.html under target directory'
+    deps:
+      - validate
+    # TODO: resume cli only supports --resume option for server
+    # remove dir:src once the CLI supports --resume option for all sub-commands
+    dir: src
+    cmds:
+      - rm -f ../{{.TARGET}}/index.html
+      - ../{{.RESUME_BIN_PATH}} export --theme {{.THEME}} ../{{.TARGET}}/index.html
+  serve:
+    desc: 'Serves the resume on localhost'
+    deps:
+      - validate
+    cmds:
+      - ./{{.RESUME_BIN_PATH}} serve --resume src/resume.json --silent --dir {{.TARGET}} --theme {{.THEME}}
