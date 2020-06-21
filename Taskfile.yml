@@ -3,7 +3,6 @@ version: '2'
 vars:
   TARGET: target
   THEME: rocketspacer
-  RESUME_BIN_PATH: node_modules/.bin/resume
 
 tasks:
   clean:
@@ -28,7 +27,7 @@ tasks:
     # remove dir:src once the CLI supports --resume option for all sub-commands
     dir: src
     cmds:
-      - ../{{.RESUME_BIN_PATH}} test
+      - yarn exec -- resume test
     # TODO: Remove once jsonresume schema supports certifications
     ignore_error: true
     deps:
@@ -42,10 +41,10 @@ tasks:
     dir: src
     cmds:
       - rm -f ../{{.TARGET}}/index.html
-      - ../{{.RESUME_BIN_PATH}} export --theme {{.THEME}} ../{{.TARGET}}/index.html
+      - yarn exec -- resume export --theme {{.THEME}} ../{{.TARGET}}/index.html
   serve:
     desc: 'Serves the resume on localhost'
     deps:
       - validate
     cmds:
-      - ./{{.RESUME_BIN_PATH}} serve --resume src/resume.json --silent --dir {{.TARGET}} --theme {{.THEME}}
+      - yarn exec -- resume serve --resume src/resume.json --silent --dir {{.TARGET}} --theme {{.THEME}}
