@@ -8,9 +8,15 @@ jobs:
   publish_resume:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
-      - uses: actions/setup-node@v1
-      - uses: arduino/actions/setup-taskfile@master
+      - name: Checkout Code
+        uses: actions/checkout@v2.3.1
+      - name: Setup NodeJS
+        uses: actions/setup-node@v1.4.2
+      - name: Setup TaskFile
+        uses: arduino/actions/setup-taskfile@master
+
+      - name: Lint
+        uses: docker://github/super-linter:v3.6.1
 
       - name: Build
         run: task build
