@@ -16,13 +16,13 @@ jobs:
         uses: arduino/actions/setup-taskfile@master
 
       - name: Lint
-        uses: docker://github/super-linter:v3.6.1
+        uses: docker://github/super-linter:v2.2.0
 
       - name: Build
         run: task build
 
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v3.6.1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./target
