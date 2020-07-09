@@ -5,12 +5,12 @@ updates:
     schedule:
       interval: "daily"
     labels:
-      - "npm"
+      - "github-actions"
       - "dependencies"
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
       interval: "daily"
     labels:
-      - "github-actions"
+      - "npm"
       - "dependencies"
