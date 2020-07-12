@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Noel Georgi",
-    "label": "DevOps hacks",
+    "label": "Cloud Engineer, K8s enthusiast",
     "picture": "https://avatars1.githubusercontent.com/u/18496730?s=460&u=fc9e69315752525d5504a94e468085e10b8c17c5&v=4",
     "email": "***********@frezbo.com",
     "phone": "+91-***** *****",
     "website": "https://resume.frezbo.com",
-    "summary": "An engineer with a love for cloud native technology and a little debugging skills",
+    "summary": "An engineer with a love for cloud native technology, loves debugging, strong proponent of rootless containers",
     "location": {
       "address": "Pune",
       "postalCode": "500081",
@@ -143,15 +143,18 @@
   "skills": [
     {
       "name": "Automation and scripts",
+      "level": "Intermediate",
       "keywords": [
         "Chef",
         "Bash",
         "Helm",
+        "Packer",
         "Ansible - medium exposure"
       ]
     },
     {
       "name": "Testing and validation",
+      "level": "Pro",
       "keywords": [
         "Inspec",
         "Awspec",
@@ -161,6 +164,7 @@
     },
     {
       "name": "Continuous Integration",
+      "level": "Pro",
       "keywords": [
         "Jenkins"
       ]
@@ -173,6 +177,7 @@
     },
     {
       "name": "Containers and Schedulers",
+      "level": "Intermediate",
       "keywords": [
         "Kubernetes",
         "OpenShift",
@@ -181,6 +186,7 @@
     },
     {
       "name": "Public Clouds",
+      "level": "Intermediate",
       "keywords": [
         "AWS",
         "Azure - medium exposure",
@@ -189,6 +195,7 @@
     },
     {
       "name": "Languages",
+      "level": "Intermediate",
       "keywords": [
         "Ruby",
         "Golang - medium exposure",
@@ -197,6 +204,7 @@
     },
     {
       "name": "Infrastructure as Code",
+      "level": "Pro",
       "keywords": [
         "Terraform",
         "AWS CloudFormation - medium exposure"
@@ -204,6 +212,7 @@
     },
     {
       "name": "Serverless",
+      "level": "Intermediate",
       "keywords": [
         "AWS Lambda",
         "Serverless - medium exposure",
