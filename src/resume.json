@@ -3,8 +3,8 @@
     "name": "Noel Georgi",
     "label": "Cloud Engineer, K8s enthusiast",
     "picture": "https://avatars1.githubusercontent.com/u/18496730?s=460&u=fc9e69315752525d5504a94e468085e10b8c17c5&v=4",
-    "email": "***********@frezbo.com",
-    "phone": "+91-***** *****",
+    "email": "noel.georgi@frezbo.com",
+    "phone": "+91-9495937839",
     "website": "https://resume.frezbo.com",
     "summary": "An engineer with a love for cloud native technology, loves debugging, strong proponent of rootless containers",
     "location": {
@@ -34,11 +34,23 @@
   },
   "work": [
     {
-      "company": "Hitachi Vantara/REAN Cloud",
+      "company": "Hitachi Vantara",
       "position": "Senior Cloud Engineer",
       "website": "https://hitachivantara.com",
       "startDate": "2019-10-01",
-      "summary": "A DevOps team building and automating an internal, cloud accelerator platform",
+      "summary": "DevSecOps team maintaining internal cloud accelerator platform and supporting other teams",
+      "highlights": [
+        "DevSecOps pipelines",
+        "Migrating applications to Kubernetes the right way"
+      ]
+    },
+    {
+      "company": "REAN Cloud",
+      "position": "Senior Cloud Engineer",
+      "website": "https://www.reancloud.com",
+      "endDate": "2019-10-01",
+      "startDate": "2016-10-21",
+      "summary": "DevOps team maintaining cloud accelerator platform",
       "highlights": [
         "Maintains and develop an internal framework for CI/CD",
         "Open source contributions to Inspec and Terraform",
@@ -156,10 +168,19 @@
       "name": "Testing and validation",
       "level": "Pro",
       "keywords": [
-        "Inspec",
         "Awspec",
         "Rspec",
         "ChefSpec - medium exposure"
+      ]
+    },
+    {
+      "name": "Compliance",
+      "level": "Pro",
+      "keywords": [
+        "Inspec",
+        "Nessus",
+        "BlackDuck",
+        "Trivy"
       ]
     },
     {
