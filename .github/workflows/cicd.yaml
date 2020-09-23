@@ -14,13 +14,8 @@ jobs:
         uses: actions/setup-node@v2.1.1
       - name: Setup TaskFile
         uses: arduino/actions/setup-taskfile@master
-
-      - name: Lint
-        uses: docker://github/super-linter:v2.2.0
-
       - name: Build
         run: task build
-
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3.6.4
         with:
