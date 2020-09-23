@@ -1,15 +1,15 @@
 {
   "basics": {
     "name": "Noel Georgi",
-    "label": "Cloud Engineer, K8s enthusiast",
+    "label": "All things Cloud Native",
     "picture": "https://avatars1.githubusercontent.com/u/18496730?s=460&u=fc9e69315752525d5504a94e468085e10b8c17c5&v=4",
-    "email": "noel.georgi@frezbo.com",
-    "phone": "+91-9495937839",
+    "email": "noel[dot]georgi[at]frezbo[dot]com]",
+    "phone": "+91-********39",
     "website": "https://resume.frezbo.com",
-    "summary": "An engineer with a love for cloud native technology, loves debugging, strong proponent of rootless containers",
+    "summary": "An engineer with a love for cloud native technology, GitOps, loves debugging, strong proponent of rootless containers",
     "location": {
       "address": "Pune",
-      "postalCode": "500081",
+      "postalCode": "411011",
       "city": "Pune",
       "countryCode": "IN",
       "region": "Maharashtra"
@@ -38,10 +38,17 @@
       "position": "Senior Cloud Engineer",
       "website": "https://hitachivantara.com",
       "startDate": "2019-10-01",
-      "summary": "DevSecOps team maintaining internal cloud accelerator platform and supporting other teams",
+      "summary": "DevSecOps team maintaining and developing multiple cloud acceleration platforms, to include a business intelligence suite, compliance and assesment systems",
       "highlights": [
-        "DevSecOps pipelines",
-        "Migrating applications to Kubernetes the right way"
+        "Tooling to help teams get started easily with DevSecOps pipelines",
+        "Helped implement standards practices for container image development",
+        "Kubernetes resources validation using Inspec",
+        "JFrog artifactory cloud deployment automation",
+        "Automation for end-to-end deployment of infrastructure and app",
+        "Shared Jenkins library for CI and CD",
+        "Container image build, test and scan CI pipelines",
+        "Migrating applications to Kubernetes",
+        "Running containers inside container using runc/crun"
       ]
     },
     {
@@ -50,13 +57,17 @@
       "website": "https://www.reancloud.com",
       "endDate": "2019-10-01",
       "startDate": "2016-10-21",
-      "summary": "DevOps team maintaining cloud accelerator platform",
+      "summary": "Member of the core development team who worked on Cloud Infrastructure automation and continuous testing system",
       "highlights": [
         "Maintains and develop an internal framework for CI/CD",
+        "Develop machine and docker image CI - Build, Test and Security scan framework using Packer",
         "Open source contributions to Inspec and Terraform",
         "Worked on developing and validating DISA STIG's for OS and Linux containers using Chef and Inspec",
-        "Containerized whole internal accelerator application",
-        "Chef, Terraform and Jenkins automation for standing up internal applications"
+        "Moved Business Intelligence platform to Docker Swarm",
+        "Containerized whole accelerator application",
+        "Chef, Terraform and Jenkins automation for standing up cloud accelerators",
+        "CI pipelines for chef cookbooks integration testing",
+        "Chef cookbooks for internal catalogue"
       ]
     }
   ],
@@ -161,7 +172,35 @@
         "Bash",
         "Helm",
         "Packer",
-        "Ansible - medium exposure"
+        "Ansible - intermediate"
+      ]
+    },
+    {
+      "name": "System Administration",
+      "keywords": [
+        "Linux",
+        "Nginx",
+        "Postfix",
+        "Dovecot",
+        "NextCloud"
+      ]
+    },
+    {
+      "name": "Public Clouds",
+      "level": "Intermediate",
+      "keywords": [
+        "AWS",
+        "Azure - intermediate",
+        "GCP - intermediate"
+      ]
+    },
+    {
+      "name": "Serverless",
+      "level": "Intermediate",
+      "keywords": [
+        "AWS Lambda",
+        "Serverless - intermediate",
+        "Knative - intermediate"
       ]
     },
     {
@@ -170,7 +209,7 @@
       "keywords": [
         "Awspec",
         "Rspec",
-        "ChefSpec - medium exposure"
+        "ChefSpec - intermediate"
       ]
     },
     {
@@ -184,43 +223,19 @@
       ]
     },
     {
-      "name": "Continuous Integration",
-      "level": "Pro",
-      "keywords": [
-        "Jenkins"
-      ]
-    },
-    {
-      "name": "System Administration",
-      "keywords": [
-        "Linux"
-      ]
-    },
-    {
       "name": "Containers and Schedulers",
       "level": "Intermediate",
       "keywords": [
         "Kubernetes",
         "OpenShift",
-        "Docker Swarm"
-      ]
-    },
-    {
-      "name": "Public Clouds",
-      "level": "Intermediate",
-      "keywords": [
-        "AWS",
-        "Azure - medium exposure",
-        "GCP - medium exposure"
-      ]
-    },
-    {
-      "name": "Languages",
-      "level": "Intermediate",
-      "keywords": [
-        "Ruby",
-        "Golang - medium exposure",
-        "Python - medium exposure"
+        "Docker Swarm",
+        "Docker Compose",
+        "Runc",
+        "Crun",
+        "Img",
+        "Buildkit",
+        "Containerd",
+        "Podman"
       ]
     },
     {
@@ -228,16 +243,25 @@
       "level": "Pro",
       "keywords": [
         "Terraform",
-        "AWS CloudFormation - medium exposure"
+        "Pulumi",
+        "Crossplane",
+        "AWS CloudFormation - intermediate"
       ]
     },
     {
-      "name": "Serverless",
+      "name": "Languages",
       "level": "Intermediate",
       "keywords": [
-        "AWS Lambda",
-        "Serverless - medium exposure",
-        "Knative - medium exposure"
+        "Ruby",
+        "Golang - intermediate",
+        "Python - intermediate"
+      ]
+    },
+    {
+      "name": "Continuous Integration",
+      "level": "Pro",
+      "keywords": [
+        "Jenkins"
       ]
     }
   ],
@@ -254,6 +278,10 @@
   "interests": [
     {
       "name": "Reading",
+      "keywords": []
+    },
+    {
+      "name": "Meetups and Webinars",
       "keywords": []
     },
     {
