@@ -20,7 +20,7 @@ tasks:
     deps:
       - setup
     cmds:
-      - yarn install --ignore-engines
+      - yarn install
   validate:
     desc: 'Runs schema validation'
     # TODO: resume cli only supports --resume option for server
@@ -48,3 +48,10 @@ tasks:
       - validate
     cmds:
       - yarn exec -- resume serve --resume src/resume.json --silent --dir {{.TARGET}} --theme {{.THEME}}
+  pdf:
+    desc: 'Generate a pdf file'
+    deps:
+      - validate
+    dir: src
+    cmds:
+      - yarn exec -- resume export --theme {{.THEME}} -f pdf ../{{.TARGET}}/resume.pdf
