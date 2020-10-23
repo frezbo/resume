@@ -101,6 +101,15 @@
       "credentialURL": "https://rhtapps.redhat.com/verify/?certId=160-207-999"
     },
     {
+      "name": "CKAD",
+      "issuingOrganization": "CNCF [Cloud Native Computing Foundation]",
+      "website": "https://www.cncf.io/certification/ckad",
+      "issueDate": "2018-06-09",
+      "expirationDate": "2021-06-09",
+      "credentialID": "CKAD-1800-0115-0100",
+      "credentialURL": "https://training.linuxfoundation.org/certification/verify-certifications"
+    },
+    {
       "name": "AWS Certified Developer - Associate",
       "issuingOrganization": "Amazon Web Services",
       "website": "https://aws.amazon.com/certification",
@@ -110,20 +119,11 @@
       "credentialURL": "https://aws.amazon.com/verification"
     },
     {
-      "name": "CKAD",
-      "issuingOrganization": "CNCF [Cloud Native Computing Foundation]",
-      "website": "https://www.cncf.io/certification/ckad",
-      "issueDate": "2018-06-09",
-      "expirationDate": "2020-06-09",
-      "credentialID": "CKAD-1800-0115-0100",
-      "credentialURL": "https://training.linuxfoundation.org/certification/verify-certifications"
-    },
-    {
       "name": "CKA",
       "issuingOrganization": "CNCF [Cloud Native Computing Foundation]",
       "website": "https://www.cncf.io/certification/cka",
       "issueDate": "2018-03-06",
-      "expirationDate": "2020-03-06",
+      "expirationDate": "2021-03-06",
       "credentialID": "CKA-1800-0327-0100",
       "credentialURL": "https://training.linuxfoundation.org/certification/verify-certifications"
     },
