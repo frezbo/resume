@@ -1541,10 +1541,10 @@ resp-modifier@6.0.2:
     debug "^2.2.0"
     minimatch "^3.0.2"
 
-resume-cli@^2.2.1:
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/resume-cli/-/resume-cli-2.2.1.tgz#6c492245e28bc006177dce95634096d1dbd16301"
-  integrity sha512-8394jq6aLec/Lg/aK2zBJZ6bLh0mksxki03hmGOcGZEs8a9H5f5PUFQQR2zcdXKuW2h1azvObmcoKVeh5qCF+g==
+resume-cli@^2.2.2:
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/resume-cli/-/resume-cli-2.2.2.tgz#af6de50461014cac0834056425725ee62dee104d"
+  integrity sha512-NbRJ+JVXyiuyuAJkJSCLSbYNvBDRZxosFR46kKwSyyevzPI1bSG7CJ6TwmzkO9eMuoi8gT6Kpf69/scyVTWNXA==
   dependencies:
     async "^3.2.0"
     browser-sync "^2.26.7"
