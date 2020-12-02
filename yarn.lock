@@ -1607,10 +1607,10 @@ resp-modifier@6.0.2:
     debug "^2.2.0"
     minimatch "^3.0.2"
 
-resume-cli@^2.2.3:
-  version "2.2.3"
-  resolved "https://registry.yarnpkg.com/resume-cli/-/resume-cli-2.2.3.tgz#dcfa4cf73b48a3d4d35429293c662450b6aec36e"
-  integrity sha512-PVidf/cGFH/z4IQ5hiEYGln9srjt9vuYaR2lYHGcNlCOiJdtmVb1f5jeLOW2FDg2k0CqQaxhHycSy7OfSFGteg==
+resume-cli@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/resume-cli/-/resume-cli-3.0.0.tgz#a9a79e2a61ff86b74a5239497d2bac1ae5c427be"
+  integrity sha512-UaVPlT40QWif6GGSYp0aFDwtp3z41ePuV6Mmq242GPAjhFmIagaZyx9OkKBxqW0hXETQMkGrPVSuy6NEbw4OYw==
   dependencies:
     async "^3.2.0"
     browser-sync "^2.26.7"
@@ -1622,16 +1622,16 @@ resume-cli@^2.2.3:
     jsonresume-theme-even "^0.5.2"
     puppeteer "^5.2.1"
     read "^1.0.7"
-    resume-schema "^0.1.3"
+    resume-schema "^1.0.0"
     superagent "^6.0.0"
     util.promisify "^1.0.1"
     z-schema "^4.2.3"
     z-schema-errors "^0.2.1"
 
-resume-schema@^0.1.3:
-  version "0.1.3"
-  resolved "https://registry.yarnpkg.com/resume-schema/-/resume-schema-0.1.3.tgz#4e7fa376762bcac7e57ab7853ef324c6b2381371"
-  integrity sha512-fsqXx62BlWLOKfbjDNhSotXGvgyb+tkddWKECIFLHz239iKDAIv2lB/NVurngT5wqfyeQfFL8vIflU7T6MtcGw==
+resume-schema@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/resume-schema/-/resume-schema-1.0.0.tgz#f26cb8032f7533e9ef8145bf656b672cbf5e7845"
+  integrity sha512-9ZEP3oO1IRrjQWTOfDq7fDNNeJp7gWqfS/l2D02f6f25nRw/wRAkpDyvIlw9uoaDARK7Ebj/CN2D/6Ht27S0zg==
   dependencies:
     z-schema "^4.2.2"
 
