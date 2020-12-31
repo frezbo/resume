@@ -2398,10 +2398,10 @@ resp-modifier@6.0.2:
     debug "^2.2.0"
     minimatch "^3.0.2"
 
-resume-cli@^3.0.2:
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/resume-cli/-/resume-cli-3.0.2.tgz#24658946dbea3f329e93b074cd3718f8151d8b99"
-  integrity sha512-LwYjILyJbfMtPBWLPNmB33vjGbinoKBxCjGkpibApxtvoTqr3RG3QtHZ3hVPrD0JgVYtYjPn29TvyoW0wScu0A==
+resume-cli@^3.0.3:
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/resume-cli/-/resume-cli-3.0.3.tgz#f7cacb9b396f07b10880fc18d4506fff95ea9484"
+  integrity sha512-CwOWdj1xFb/7/wJJ6eqWhb7KqP3bVhBcV/W2adxX2aPV7Gg40uZ1bwcBYruJeBl291bVlMX0+UlWXuyDTrRH6w==
   dependencies:
     async "^3.2.0"
     browser-sync "^2.26.7"
@@ -2424,7 +2424,7 @@ resume-cli@^3.0.2:
     util.promisify "^1.0.1"
     yaml-js "^0.2.3"
     yesno "^0.3.1"
-    z-schema "^4.2.3"
+    z-schema "^5.0.0"
     z-schema-errors "^0.2.1"
 
 resume-schema@^1.0.0:
@@ -3180,10 +3180,21 @@ z-schema-errors@^0.2.1:
   dependencies:
     xtend "^4.0.0"
 
-z-schema@^4.2.2, z-schema@^4.2.3:
+z-schema@^4.2.2:
   version "4.2.3"
   resolved "https://registry.yarnpkg.com/z-schema/-/z-schema-4.2.3.tgz#85f7eea7e6d4fe59a483462a98f511bd78fe9882"
   integrity sha512-zkvK/9TC6p38IwcrbnT3ul9in1UX4cm1y/VZSs4GHKIiDCrlafc+YQBgQBUdDXLAoZHf2qvQ7gJJOo6yT1LH6A==
+  dependencies:
+    lodash.get "^4.4.2"
+    lodash.isequal "^4.5.0"
+    validator "^12.0.0"
+  optionalDependencies:
+    commander "^2.7.1"
+
+z-schema@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/z-schema/-/z-schema-5.0.0.tgz#6a9585cffcb9259c45c572443bc1a383238de91e"
+  integrity sha512-58TxNEurHQEEgbrNbQnoUHXgh6tiplSvKb7D3o4K6KzICQk9vFyl8B0zycC/p3gW92qBZCmq5NJIhJODKrV7JQ==
   dependencies:
     lodash.get "^4.4.2"
     lodash.isequal "^4.5.0"
