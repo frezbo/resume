@@ -2398,10 +2398,10 @@ resp-modifier@6.0.2:
     debug "^2.2.0"
     minimatch "^3.0.2"
 
-resume-cli@^3.0.3:
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/resume-cli/-/resume-cli-3.0.3.tgz#f7cacb9b396f07b10880fc18d4506fff95ea9484"
-  integrity sha512-CwOWdj1xFb/7/wJJ6eqWhb7KqP3bVhBcV/W2adxX2aPV7Gg40uZ1bwcBYruJeBl291bVlMX0+UlWXuyDTrRH6w==
+resume-cli@^3.0.4:
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/resume-cli/-/resume-cli-3.0.4.tgz#bbc54271e3e038d2e8ebd742037db82876f44729"
+  integrity sha512-EnTV6Ho0PNLkAnkDTVf3cc/IWAofPHHfA7CsCA7cEhJq2Tm0VAq5Eg1MLNhqoqR8tE7layBypkCQmXyeb1bI6g==
   dependencies:
     async "^3.2.0"
     browser-sync "^2.26.7"
