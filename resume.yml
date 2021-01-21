@@ -1,0 +1,20 @@
+version: 1.0
+provider:
+  name: openfaas
+  gateway: https://faas.frezbo.dev
+functions:
+  resume:
+    lang: static-site
+    handler: ./resume
+    image: ghcr.io/frezbo/resume:latest
+    readonly_root_filesystem: true
+    environment:
+      PROJECT: resume
+      STACK: prod
+    limits:
+      cpu: 100m
+      memory: 40Mi
+    requests:
+      cpu: 100m
+      memory: 40Mi
+

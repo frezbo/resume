@@ -1,0 +1,3 @@
+[submodule "submodules/openfaas-template-static"]
+	path = submodules/openfaas-template-static
+	url = https://github.com/frezbo/openfaas-template-static.git
