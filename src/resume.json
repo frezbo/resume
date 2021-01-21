@@ -34,10 +34,18 @@
   },
   "work": [
     {
+      "company": "VivSoft",
+      "position": "Senior DevSecOps Engineer",
+      "website": "https://www.vivsoft.io/",
+      "startDate": "2020-01-04",
+      "summary": "Building a platform for solutions deployment on Kubernetes"
+    },
+    {
       "company": "Hitachi Vantara",
       "position": "Senior Cloud Engineer",
       "website": "https://hitachivantara.com",
       "startDate": "2019-10-01",
+      "endDate": "2020-12-24",
       "summary": "DevSecOps team maintaining and developing multiple cloud acceleration platforms, to include a business intelligence suite, compliance and assesment systems",
       "highlights": [
         "Tooling to help teams get started easily with DevSecOps pipelines",
