@@ -8,9 +8,6 @@ functions:
     handler: ./resume
     image: ghcr.io/frezbo/resume:latest
     readonly_root_filesystem: true
-    environment:
-      PROJECT: resume
-      STACK: prod
     limits:
       cpu: 100m
       memory: 40Mi

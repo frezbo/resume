@@ -115,7 +115,7 @@
       "issueDate": "2018-06-09",
       "expirationDate": "2021-06-09",
       "credentialID": "CKAD-1800-0115-0100",
-      "credentialURL": "https://training.linuxfoundation.org/certification/verify-certifications"
+      "credentialURL": "https://training.linuxfoundation.org/certification/verify"
     },
     {
       "name": "AWS Certified Developer - Associate",
@@ -130,10 +130,10 @@
       "name": "CKA",
       "issuingOrganization": "CNCF [Cloud Native Computing Foundation]",
       "website": "https://www.cncf.io/certification/cka",
-      "issueDate": "2018-03-06",
-      "expirationDate": "2021-03-06",
-      "credentialID": "CKA-1800-0327-0100",
-      "credentialURL": "https://training.linuxfoundation.org/certification/verify-certifications"
+      "issueDate": "2020-04-17",
+      "expirationDate": "2024-04-18",
+      "credentialID": "LF-8ndwson22l",
+      "credentialURL": "https://training.linuxfoundation.org/certification/verify"
     },
     {
       "name": "Red Hat Certified Engineer",
