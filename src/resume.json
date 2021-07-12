@@ -5,7 +5,7 @@
     "picture": "https://avatars1.githubusercontent.com/u/18496730?s=460&u=fc9e69315752525d5504a94e468085e10b8c17c5&v=4",
     "email": "noel[dot]georgi[at]frezbo[dot]dev",
     "phone": "+91-********39",
-    "website": "https://resume.frezbo.dev",
+    "website": "https://frezbo.dev",
     "summary": "An engineer with a love for cloud native technology, GitOps, loves debugging, strong proponent of rootless containers",
     "location": {
       "address": "Pune",
@@ -82,6 +82,33 @@
   "volunteer": [],
   "certifications": [
     {
+      "name": "CKAD",
+      "issuingOrganization": "CNCF [Cloud Native Computing Foundation]",
+      "website": "https://www.cncf.io/certification/ckad",
+      "issueDate": "2018-06-09",
+      "expirationDate": "2024-06-06",
+      "credentialID": "CKAD-1800-0115-0100",
+      "credentialURL": "https://training.linuxfoundation.org/certification/verify"
+    },
+    {
+      "name": "CKA",
+      "issuingOrganization": "CNCF [Cloud Native Computing Foundation]",
+      "website": "https://www.cncf.io/certification/cka",
+      "issueDate": "2021-04-17",
+      "expirationDate": "2024-04-18",
+      "credentialID": "LF-8ndwson22l",
+      "credentialURL": "https://training.linuxfoundation.org/certification/verify"
+    },
+    {
+      "name": "CKS",
+      "issuingOrganization": "CNCF [Cloud Native Computing Foundation]",
+      "website": "https://www.cncf.io/certification/cks",
+      "issueDate": "2023-06-08",
+      "expirationDate": "2021-06-07",
+      "credentialID": "LF-8ndwson22l",
+      "credentialURL": "https://training.linuxfoundation.org/certification/verify"
+    },
+    {
       "name": "AWS Certified Solutions Architect - Associate",
       "issuingOrganization": "Amazon Web Services",
       "website": "https://aws.amazon.com/certification",
@@ -91,7 +118,7 @@
       "credentialURL": "https://aws.amazon.com/verification"
     },
     {
-      "name": "Amazon Web Services SysOps Administrator - Associate",
+      "name": "AWS Certified SysOps Administrator - Associate",
       "issuingOrganization": "Amazon Web Services",
       "website": "https://aws.amazon.com/certification",
       "issueDate": "2019-10-21",
@@ -109,31 +136,13 @@
       "credentialURL": "https://rhtapps.redhat.com/verify/?certId=160-207-999"
     },
     {
-      "name": "CKAD",
-      "issuingOrganization": "CNCF [Cloud Native Computing Foundation]",
-      "website": "https://www.cncf.io/certification/ckad",
-      "issueDate": "2018-06-09",
-      "expirationDate": "2021-06-09",
-      "credentialID": "CKAD-1800-0115-0100",
-      "credentialURL": "https://training.linuxfoundation.org/certification/verify"
-    },
-    {
       "name": "AWS Certified Developer - Associate",
       "issuingOrganization": "Amazon Web Services",
       "website": "https://aws.amazon.com/certification",
       "issueDate": "2018-02-24",
-      "expirationDate": "2021-05-29",
+      "expirationDate": "2021-12-31",
       "credentialID": "S4M1KXSKLB4EQ69Y",
       "credentialURL": "https://aws.amazon.com/verification"
-    },
-    {
-      "name": "CKA",
-      "issuingOrganization": "CNCF [Cloud Native Computing Foundation]",
-      "website": "https://www.cncf.io/certification/cka",
-      "issueDate": "2021-04-17",
-      "expirationDate": "2024-04-18",
-      "credentialID": "LF-8ndwson22l",
-      "credentialURL": "https://training.linuxfoundation.org/certification/verify"
     },
     {
       "name": "Red Hat Certified Engineer",

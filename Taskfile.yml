@@ -1,4 +1,4 @@
-version: '2'
+version: '3'
 
 vars:
   TARGET: target
@@ -23,11 +23,8 @@ tasks:
       - yarn install
   validate:
     desc: 'Runs schema validation'
-    # TODO: resume cli only supports --resume option for server
-    # remove dir:src once the CLI supports --resume option for all sub-commands
-    dir: src
     cmds:
-      - yarn exec -- resume test
+      - yarn exec -- resume validate --resume src/resume.json validate
     # TODO: Remove once jsonresume schema supports certifications
     ignore_error: true
     deps:
@@ -36,12 +33,9 @@ tasks:
     desc: 'Creates resume index.html under target directory'
     deps:
       - validate
-    # TODO: resume cli only supports --resume option for server
-    # remove dir:src once the CLI supports --resume option for all sub-commands
-    dir: src
     cmds:
-      - rm -f ../{{.TARGET}}/index.html
-      - yarn exec -- resume export --theme {{.THEME}} ../{{.TARGET}}/index.html
+      - rm -f {{.TARGET}}/index.html
+      - yarn exec -- resume export --resume src/resume.json --theme {{.THEME}} {{.TARGET}}/index.html
   serve:
     desc: 'Serves the resume on localhost'
     deps:
@@ -52,6 +46,5 @@ tasks:
     desc: 'Generate a pdf file'
     deps:
       - validate
-    dir: src
     cmds:
-      - yarn exec -- resume export --theme {{.THEME}} -f pdf ../{{.TARGET}}/resume.pdf
+      - yarn exec -- resume export --resume src/resume.json --theme {{.THEME}} --format pdf {{.TARGET}}/resume.pdf
