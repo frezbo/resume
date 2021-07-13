@@ -6,7 +6,7 @@
     "email": "noel[dot]georgi[at]frezbo[dot]dev",
     "phone": "+91-********39",
     "website": "https://frezbo.dev",
-    "summary": "An engineer with a love for cloud native technology, GitOps, loves debugging, strong proponent of rootless containers",
+    "summary": "An engineer with a love for cloud native technology, GitOps, loves debugging, Infrastructure as Software",
     "location": {
       "address": "Pune",
       "postalCode": "411011",
@@ -29,6 +29,11 @@
         "network": "GitHub",
         "username": "frezbo",
         "url": "https://github.com/frezbo"
+      },
+      {
+        "network": "Polywork",
+        "username": "frezbo",
+        "url": "https://www.polywork.com/frezbo"
       }
     ]
   },
@@ -38,7 +43,12 @@
       "position": "Senior DevSecOps Engineer",
       "website": "https://www.vivsoft.io/",
       "startDate": "2020-01-04",
-      "summary": "Building a platform for solutions deployment on Kubernetes"
+      "summary": "Building a platform for solutions deployment on Kubernetes",
+      "highlights": [
+        "Platform One BigBang opinionated setup as Infrastructure as Software",
+        "Istio working in regulated and hardened environments properly",
+        "Kubeflow and Kale multi-user setup with Istio proxy"
+      ]
     },
     {
       "company": "Hitachi Vantara",
