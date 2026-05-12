@@ -1,25 +1,30 @@
 # Frezbo's Resume
 
-Uses [JSON Resume](https://jsonresume.org/) to build a resume with [rocketspacer](https://github.com/rocketspacer/jsonresume-theme-rocketspacer) theme and publish to GitHub pages.
+Resume source written in [Typst](https://typst.app/), compiled to PDF.
 
-## Pre-requisites
+## Prerequisites
 
-- [NodeJS](https://nodejs.org/en/)
-- [TaskFile](https://taskfile.dev/#/installation)
-- [Yarn](https://yarnpkg.com/getting-started/install)
+- [Typst](https://typst.app/) (`brew install typst`)
 
-> Use any installation method whichever is convenient
+## Source
 
-## Listing tasks
+- `src/resume.typ` — resume content
+- `assets/profile.jpg` — profile photo (used by photo build only)
 
-`task -l`
+## Build
 
-## Building
+Two outputs from one source via the `photo` input flag:
 
-`task build`
+```sh
+# Without photo
+typst compile --root . --input photo=false src/resume.typ target/Noel_Georgi_Resume.pdf
 
-## Serving
+# With photo
+typst compile --root . --input photo=true  src/resume.typ target/Noel_Georgi_Resume_Photo.pdf
+```
 
-`task serve`
+## Live preview
 
-Starts a local server listening on port 4000
+```sh
+typst watch --root . src/resume.typ target/resume.pdf
+```
